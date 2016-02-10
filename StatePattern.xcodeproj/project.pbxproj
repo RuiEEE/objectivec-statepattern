@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7CEE08CC1C6B40D0009AB200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE08CB1C6B40D0009AB200 /* main.m */; };
+		7CEE08D91C6B40FA009AB200 /* PlayerGuest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE08D41C6B40FA009AB200 /* PlayerGuest.m */; };
+		7CEE08DA1C6B40FA009AB200 /* PlayerLogged.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE08D61C6B40FA009AB200 /* PlayerLogged.m */; };
+		7CEE08DC1C6B41B5009AB200 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE08DB1C6B41B5009AB200 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		7CEE08C81C6B40D0009AB200 /* StatePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StatePattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEE08CB1C6B40D0009AB200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CEE08D31C6B40FA009AB200 /* PlayerGuest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerGuest.h; sourceTree = "<group>"; };
+		7CEE08D41C6B40FA009AB200 /* PlayerGuest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerGuest.m; sourceTree = "<group>"; };
+		7CEE08D51C6B40FA009AB200 /* PlayerLogged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLogged.h; sourceTree = "<group>"; };
+		7CEE08D61C6B40FA009AB200 /* PlayerLogged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLogged.m; sourceTree = "<group>"; };
+		7CEE08D71C6B40FA009AB200 /* PlayerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerState.h; sourceTree = "<group>"; };
+		7CEE08DB1C6B41B5009AB200 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		7CEE08DD1C6B4226009AB200 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				7CEE08CB1C6B40D0009AB200 /* main.m */,
+				7CEE08DB1C6B41B5009AB200 /* Player.m */,
+				7CEE08D31C6B40FA009AB200 /* PlayerGuest.h */,
+				7CEE08D41C6B40FA009AB200 /* PlayerGuest.m */,
+				7CEE08D51C6B40FA009AB200 /* PlayerLogged.h */,
+				7CEE08D61C6B40FA009AB200 /* PlayerLogged.m */,
+				7CEE08D71C6B40FA009AB200 /* PlayerState.h */,
+				7CEE08DD1C6B4226009AB200 /* Player.h */,
 			);
 			path = StatePattern;
 			sourceTree = "<group>";
@@ -118,6 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEE08DC1C6B41B5009AB200 /* Player.m in Sources */,
+				7CEE08DA1C6B40FA009AB200 /* PlayerLogged.m in Sources */,
+				7CEE08D91C6B40FA009AB200 /* PlayerGuest.m in Sources */,
 				7CEE08CC1C6B40D0009AB200 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
