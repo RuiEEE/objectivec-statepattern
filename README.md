@@ -1,0 +1,1 @@
+Simple implementation of the State Pattern (https://en.wikipedia.org/wiki/State_pattern) for the objective-c programming language.
